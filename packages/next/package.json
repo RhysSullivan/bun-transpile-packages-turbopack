@@ -1,16 +1,17 @@
 {
   "name": "@acme/next",
   "private": true,
-
-	"type": "module",
+  "type": "module",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev:turbo": "next dev --turbo",
+    "dev:no-turbo": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "@acme/internal": "workspace:*",
-    "next": "canary",
+    "@acme/internal-multiple": "workspace:*",
+    "@acme/internal-single": "workspace:*",
+    "next": "15.0.0-canary.181",
     "react": "19.0.0-rc-2d16326d-20240930",
     "react-dom": "19.0.0-rc-2d16326d-20240930"
   },

@@ -1,0 +1,9 @@
+{
+    "name": "@acme/internal-single",
+    "version": "0.0.0",
+    "type": "module",
+    "sideEffects": false,
+    "exports": {
+        "./*": [ "./src/*.tsx"]
+    }
+}

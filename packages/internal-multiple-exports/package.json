@@ -1,5 +1,5 @@
 {
-    "name": "@acme/internal",
+    "name": "@acme/internal-multiple",
     "version": "0.0.0",
     "type": "module",
     "sideEffects": false,
